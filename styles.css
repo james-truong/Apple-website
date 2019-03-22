@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li { list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #08c;
+}
+
+a:hover { text-decoration: underline; }
+
+/* Hero Styles */
+
+.hero {
+  height: 540px;
+  padding-top: 20px;
+  background: url(images/your_verse_hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.header-nav {
+  width: 72%;
+  margin: 0 auto;
+  background: linear-gradient(#9a9a9a, #676767 50%, #808080);
+  border-radius: 4px;
+}
+
+.header-nav li {
+  display: inline-block;
+  width: 10.3%;
+  padding: 8px;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.header-nav li:first-child { padding: 6px; }
+
+.header-nav li:last-child {
+  width: 12.5%;
+  border-right: none;
+}
+
+.header-nav a {
+  color: white;
+  font-size: 16px;
+}
+
+.header-nav input {
+  width: 90%;
+  height: 22px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background: transparent url(images/search.png) no-repeat;
+  background-size: 15px;
+  background-position: 5px 50%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.hero section {
+  width: 800px;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.hero section div { margin-bottom: 15px; }
+
+/* Showcase Styles */
+
+.showcase li {
+  display: inline-block;
+  width: 25%;
+  background-color: white;
+}
+
+.showcase li img { width: 100%; }
+
+/* Footer Styles */
+
+footer {
+  width: 78%;
+  margin: 25px auto;
+  font-size: 11px;
+  color: gray;
+}
+
+footer nav {
+  display: inline-block;
+  margin-left: 39px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 7px;
+  border-right: 1px solid gray;
+}
+
+footer li:last-child {
+  border-right: none;
+}
+
+footer img {
+  border-radius: 50%;
+}
+
+footer span:last-of-type {
+  display: inline-block;
+  margin-top: 15px;
+}
